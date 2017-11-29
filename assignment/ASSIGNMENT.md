@@ -9,6 +9,8 @@ what you would do next, given more time.
 
 ## Installation
 
+This assignment requires node >= 8.0.0 and npm >= 5.5
+
 ```BASH
 git clone https://github.com/LiveSafe/lvsf-frontend-assignment.git
 
