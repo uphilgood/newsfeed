@@ -9,7 +9,7 @@ what you would do next, given more time.
 
 ## Task
 
-#### Part 1: Create News Item Layout
+#### Part 1: Create news item layout
 
 Your task is to complete the hacker news feed. The project has been set up and a service to fetch a
 Hacker News feed has been created. The feed cards are currently just spitting out stringified JSON
