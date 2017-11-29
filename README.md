@@ -5,9 +5,7 @@ This is a quick assignment for backend candidates to submit to LiveSafe. See the
 
 To get started and submit your work.
 
-* Clone this project from this private repository Complete the assignment as instructed in the
-
-* ASSIGNMENT.md
+* Clone this project from this private repository Complete the assignment as instructed in ASSIGNMENT.md
 
 * When ready to submit create a patch of your work. (Ex: git diff master origin/master >
   mypatch.patch)
