@@ -1,21 +1,23 @@
 ## Assignment
 
-The purpose of this is simply to get a small sample of some of your work, and have something
+The purpose of this is to get a small sample of some of your work, and have something
 concrete to discuss next time we see you.
 
-We respect and appreciate your time: please do not spend more than a couple hours of your time on
+We respect and appreciate your time: please do not spend more than a couple hours on
 this. Feel free to turn in what you have at the end of that time, and provide a brief explanation of
 what you would do next, given more time.
 
 ## Task
 
-#### Part 1: Create News Item Layout
+#### Part 1: Create news item layout
 
 Your task is to complete the hacker news feed. The project has been set up and a service to fetch a
 Hacker News feed has been created. The feed cards are currently just spitting out stringified JSON
 and need to be correctly formatted.
 
 The design for each news item should be as below, try to match the design as closely as possible.
+
+NOTE: The comments icons is included under src/assets.
 
 <img src="card-mock.png">
 
