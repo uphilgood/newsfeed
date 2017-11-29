@@ -34,7 +34,7 @@ NOTE: The comments icons is included under src/assets.
 At the top of the news feed there is a search field. Implement search that narrows the list as you
 type.
 
-Your search should check the "title", "url", and "user" fields
+Your search should check for a partial match on the "title", "url", and "user" fields
 
 Write a unit test to verify that the search works correctly
 
