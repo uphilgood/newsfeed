@@ -17,8 +17,8 @@ The design for each news item should be as below, try to match the design as clo
 
 <img src="card-mock.png">
 
-There is also a bug in the application where the filter field isn't working correctly. Fix the bug
-and update the unit test to show that it is working correctly.
+There is also a bug in the application where the filter field isn't working correctly. Use the unit
+tests to help you find and fix the bug and update the unit tests to reflect the updates.
 
 ## Development server
 

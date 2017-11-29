@@ -1,7 +1,7 @@
 # LiveSafe Front End Assignment
 
 This is a quick assignment for backend candidates to submit to LiveSafe. See the
-[ASSIGNMENT.md]('ASSIGNMENT.md') for details specific to the assignment.
+[ASSIGNMENT.md]('assignment/ASSIGNMENT.md') for details specific to the assignment.
 
 To get started and submit your work.
 
