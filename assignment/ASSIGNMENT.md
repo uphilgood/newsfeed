@@ -21,11 +21,9 @@ npm install
 
 #### Part 1: Create news item layout
 
-Your task is to complete the hacker news feed. The project has been set up and a service to fetch a
-Hacker News feed has been created. The feed cards are currently just spitting out stringified JSON
-and need to be correctly formatted.
+The project has been set up and a service to fetch a Hacker News feed has been created. The feed cards are currently just spitting out stringified JSON and need to be correctly formatted.
 
-The design for each news item should be as below, try to match the design as closely as possible.
+The design for each news item is below, try to match the design as closely as possible.
 
 NOTE: The comments icons is included under src/assets.
 
