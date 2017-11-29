@@ -1,9 +1,9 @@
 ## Assignment
 
-The purpose of this is simply to get a small sample of some of your work, and have something
+The purpose of this is to get a small sample of some of your work, and have something
 concrete to discuss next time we see you.
 
-We respect and appreciate your time: please do not spend more than a couple hours of your time on
+We respect and appreciate your time: please do not spend more than a couple hours on
 this. Feel free to turn in what you have at the end of that time, and provide a brief explanation of
 what you would do next, given more time.
 
