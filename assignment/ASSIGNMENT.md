@@ -7,6 +7,16 @@ We respect and appreciate your time: please do not spend more than a couple hour
 this. Feel free to turn in what you have at the end of that time, and provide a brief explanation of
 what you would do next, given more time.
 
+## Installation
+
+```BASH
+git clone https://github.com/LiveSafe/lvsf-frontend-assignment.git
+
+cd lvsf-frontend-assignment
+
+npm install
+```
+
 ## Task
 
 #### Part 1: Create news item layout
