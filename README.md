@@ -3,6 +3,8 @@
 This is a quick assignment for backend candidates to submit to LiveSafe. See the
 [ASSIGNMENT.md](assignment/ASSIGNMENT.md) for details specific to the assignment.
 
+NOTE: The assignment is written with Angular v5 which we use internally but the assignment shouldn't require in depth knowledge of Angular.
+
 To get started and submit your work.
 
 * Clone this project from this private repository Complete the assignment as instructed in
