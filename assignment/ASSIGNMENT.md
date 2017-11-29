@@ -18,7 +18,7 @@ The design for each news item should be as below, try to match the design as clo
 <img src="card-mock.png">
 
 There is also a bug in the application where the filter field isn't working correctly. Use the unit
-tests to help you find and fix the bug and update the unit tests to reflect the updates.
+tests to help you find and fix the bug and update the unit tests to reflect the updates. The search feature should update the list as you type and should search on the title, url and user fields.
 
 ## Development server
 
