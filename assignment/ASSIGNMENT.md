@@ -17,6 +17,8 @@ and need to be correctly formatted.
 
 The design for each news item should be as below, try to match the design as closely as possible.
 
+NOTE: The comments icons is included under src/assets.
+
 <img src="card-mock.png">
 
 #### Part 2: Implement search
