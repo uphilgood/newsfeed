@@ -1,7 +1,8 @@
 import { TestBed, inject } from '@angular/core/testing';
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
 
-import { HackerNewsService, HnApi, NewsItem } from './hacker-news.service';
+import { NewsItem } from './news-item.interface';
+import { HackerNewsService, HnApi } from './hacker-news.service';
 
 describe('HackerNewsService', () => {
   let service: HackerNewsService;
@@ -33,6 +34,7 @@ describe('HackerNewsService', () => {
 
     service.getNews().subscribe(news => {
       expect(news.length).toBe(6);
+
       expect(news as Partial<NewsItem>[]).toEqual(sampleNews);
     });
 

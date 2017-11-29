@@ -12,7 +12,7 @@ describe('FeedComponent', () => {
     TestBed.configureTestingModule({
       imports: [SharedModule],
       declarations: [FeedComponent, FeedCardComponent]
-    }).compileComponents();
+    });
   });
 
   beforeEach(() => {

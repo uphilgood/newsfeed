@@ -1,2 +1,3 @@
 export { CoreModule } from './core.module';
-export { HackerNewsService, NewsItem } from './hacker-news.service';
+export { HackerNewsService } from './hacker-news.service';
+export { NewsItem } from './news-item.interface';

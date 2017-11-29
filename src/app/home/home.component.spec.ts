@@ -1,7 +1,10 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SharedModule } from '../../shared';
-import { FeedCardComponent } from './feed-card.component';
+import { SharedModule } from '../shared';
+import { CoreModule } from '../core';
+
+import { FeedComponent } from './feed/feed.component';
+import { FeedCardComponent } from './feed-card/feed-card.component';
 
 describe('FeedCardComponent', () => {
   let component: FeedCardComponent;
