@@ -5,20 +5,21 @@ import { CoreModule } from '../core';
 
 import { FeedComponent } from './feed/feed.component';
 import { FeedCardComponent } from './feed-card/feed-card.component';
+import { HomeComponent } from './home.component';
 
-describe('FeedCardComponent', () => {
-  let component: FeedCardComponent;
-  let fixture: ComponentFixture<FeedCardComponent>;
+describe('HomeComponent', () => {
+  let component: HomeComponent;
+  let fixture: ComponentFixture<HomeComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      imports: [SharedModule],
-      declarations: [FeedCardComponent]
+      imports: [SharedModule, CoreModule],
+      declarations: [HomeComponent, FeedCardComponent, FeedComponent]
     });
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FeedCardComponent);
+    fixture = TestBed.createComponent(HomeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
