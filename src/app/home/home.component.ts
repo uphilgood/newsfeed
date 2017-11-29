@@ -9,7 +9,7 @@ import { HackerNewsService, NewsItem } from '../core';
       <input type="text" placeholder="Search News" #search (keyup)="onKeyUp(search.value)">
     </div>
 
-    <app-feed *ngIf="!loading" [news]="news | filterFeed:filterText"></app-feed>
+    <app-feed *ngIf="!loading" [news]="news"></app-feed>
 
     <app-loader *ngIf="loading"></app-loader>
   `,
@@ -18,7 +18,6 @@ import { HackerNewsService, NewsItem } from '../core';
 export class HomeComponent implements OnInit {
   loading = false;
   news: NewsItem[] = [];
-  filterText = '';
 
   constructor(private hn: HackerNewsService) {}
 
@@ -32,6 +31,6 @@ export class HomeComponent implements OnInit {
   }
 
   onKeyUp(value: string) {
-    this.filterText = value;
+    console.log(value);
   }
 }

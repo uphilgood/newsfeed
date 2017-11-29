@@ -3,11 +3,13 @@
 The purpose of this is simply to get a small sample of some of your work, and have something
 concrete to discuss next time we see you.
 
-We respect and appreciate your time: please do not spend more than a couple hours of your time on this.
-Feel free to turn in what you have at the end of that time, and provide a brief explanation of what
-you would do next, given more time.
+We respect and appreciate your time: please do not spend more than a couple hours of your time on
+this. Feel free to turn in what you have at the end of that time, and provide a brief explanation of
+what you would do next, given more time.
 
 ## Task
+
+#### Part 1: Create News Item Layout
 
 Your task is to complete the hacker news feed. The project has been set up and a service to fetch a
 Hacker News feed has been created. The feed cards are currently just spitting out stringified JSON
@@ -17,8 +19,14 @@ The design for each news item should be as below, try to match the design as clo
 
 <img src="card-mock.png">
 
-There is also a bug in the application where the filter field isn't working correctly. Use the unit
-tests to help you find and fix the bug and update the unit tests to reflect the updates. The search feature should update the list as you type and should search on the title, url and user fields.
+#### Part 2: Implement search
+
+At the top of the news feed there is a search field. Implement search that narrows the list as you
+type.
+
+Your search should check the "title", "url", and "user" fields
+
+Write a unit test to verify that the search works correctly
 
 ## Development server
 
