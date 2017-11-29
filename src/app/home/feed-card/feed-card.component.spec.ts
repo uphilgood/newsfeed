@@ -1,17 +1,18 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 
+import { SharedModule } from '../../shared';
 import { FeedCardComponent } from './feed-card.component';
 
 describe('FeedCardComponent', () => {
   let component: FeedCardComponent;
   let fixture: ComponentFixture<FeedCardComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ FeedCardComponent ]
-    })
-    .compileComponents();
-  }));
+      imports: [SharedModule],
+      declarations: [FeedCardComponent]
+    }).compileComponents();
+  });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(FeedCardComponent);

@@ -32,8 +32,8 @@ describe('HackerNewsService', () => {
     ];
 
     service.getNews().subscribe(news => {
-      expect(news).toBe(6);
-      expect(news).toEqual(sampleNews);
+      expect(news.length).toBe(6);
+      expect(news as Partial<NewsItem>[]).toEqual(sampleNews);
     });
 
     const req = httpMock.expectOne(HnApi);

@@ -8,10 +8,7 @@ import { NewsItem } from '../../core';
 export class FilterFeedPipe implements PipeTransform {
   transform(value: NewsItem[], filterString: string): NewsItem[] {
     return value.filter(
-      item =>
-        item.title.indexOf(filterString) > -1 ||
-        item.url.indexOf(filterString) > -1 ||
-        (item.user && item.user.indexOf(filterString) > -1)
+      item => item.title.indexOf(filterString) > -1 || item.url.indexOf(filterString) > -1
     );
   }
 }
