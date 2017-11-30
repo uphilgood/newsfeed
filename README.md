@@ -1,6 +1,6 @@
 # LiveSafe Front End Assignment
 
-This is a quick assignment for backend candidates to submit to LiveSafe. See the
+This is a quick assignment for frontend candidates to submit to LiveSafe. See the
 [ASSIGNMENT.md](assignment/ASSIGNMENT.md) for details specific to the assignment.
 
 NOTE: The assignment is written with Angular v5 which we use internally but the assignment shouldn't
