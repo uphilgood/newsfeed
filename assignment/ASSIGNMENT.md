@@ -28,6 +28,7 @@ The project has been set up and a service to fetch a Hacker News feed has been c
 The design for each news item is below, try to match the design as closely as possible.
 
 NOTE: The comments icons is included under src/assets.
+NOTE2: the gray section is the background not a card border
 
 <img src="card-mock.png">
 
