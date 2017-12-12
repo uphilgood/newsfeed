@@ -11,7 +11,6 @@ To get started and submit your work.
 * Clone this project from this private repository Complete the assignment as instructed in
   ASSIGNMENT.md
 
-* When ready to submit create a patch of your work. (Ex: git diff master origin/master >
-  mypatch.patch)
+* When ready to submit create a patch of your work. (Ex: git diff origin/master master > mypatch.patch)
 
 * Email the mypatch.patch file back to the LiveSafe staff that sent the assignment
