@@ -18,6 +18,8 @@ import { HackerNewsService, NewsItem } from '../core';
 export class HomeComponent implements OnInit {
   loading = false;
   news: NewsItem[] = [];
+  updatedNews: NewsItem[] = [];
+  news2: NewsItem[] = [];
 
   constructor(private hn: HackerNewsService) {}
 
@@ -27,10 +29,24 @@ export class HomeComponent implements OnInit {
     this.hn.getNews().subscribe(data => {
       this.loading = false;
       this.news = data;
+      this.news2 = data;
     });
   }
 
   onKeyUp(value: string) {
-    console.log(value);
+    this.updatedNews = [];
+    this.news = this.news2;
+    this.news.forEach(items => (items.title.includes(value) || items.url.includes(value) || items.user.includes(value) ) ?
+        this.updatedNews.push(items):
+        this.news = this.updatedNews)
+        console.log(this.news);
+    }
+    // for(var i=0;i<this.news.length;i++){
+    //   if(this.news[i].title.includes(value) || this.news[i].user.includes(value)){
+    //     this.updatedNews.push(this.news[i]);
+    //   }
+    // }
+    //this.news = this.updatedNews;
+
   }
-}
+//}
